@@ -18,6 +18,7 @@
 .logo {
   display: flex;
   align-items: center;
+  margin-left: 50px;
   gap: 10px;
   font-weight: 700;
   font-size: 1.5rem;
@@ -85,6 +86,7 @@
 
 .theme-toggle {
   background: none;
+  margin-right: 100px;
   border: 2px solid var(--primary-green);
   width: 40px;
   height: 40px;
