@@ -16,7 +16,6 @@
 }
 
 .logo {
-  margin-left: 50px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -89,7 +88,6 @@
   border: 2px solid var(--primary-green);
   width: 40px;
   height: 40px;
-  margin-right: 200px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -176,5 +174,20 @@
     width: 36px;
     height: 36px;
     font-size: 1rem;
+    margin-right: 12px;
+  }
+
+  .logo {
+    font-size: 1.15rem;
+  }
+
+  .logo-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 1rem;
+  }
+
+  .header-container {
+    padding: 0.6rem 0.8rem;
   }
 }

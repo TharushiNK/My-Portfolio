@@ -204,3 +204,33 @@ header, main, section {
     font-size: 1.8rem;
   }
 }
+
+/* Extra small screens adjustments */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  body {
+    font-size: 15px;
+  }
+
+  button {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+  }
+
+  /* prevent large fixed-width elements from overflowing */
+  img, .about-image-container img, .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+}
