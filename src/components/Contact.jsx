@@ -18,20 +18,43 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState('');
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // Create mailto link
-    const mailtoLink = `mailto:tnkumari2003@gmail.com?subject=Portfolio Inquiry from ${formData.name}&body=${encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`)}`;
-    
-    window.location.href = mailtoLink;
-    
-    setSubmitted(true);
-    setFormData({ name: '', email: '', message: '' });
-    
-    setTimeout(() => {
-      setSubmitted(false);
-    }, 3000);
+    setIsLoading(true);
+    setError('');
+
+    try {
+      const formDataObj = new FormData();
+      formDataObj.append('access_key', 'feee2c30-6392-46f7-962b-8a469b57a24a');
+      formDataObj.append('name', formData.name);
+      formDataObj.append('email', formData.email);
+      formDataObj.append('message', formData.message);
+
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formDataObj
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitted(true);
+        setFormData({ name: '', email: '', message: '' });
+        setTimeout(() => {
+          setSubmitted(false);
+        }, 5000);
+      } else {
+        setError('Failed to send message. Please try again.');
+      }
+    } catch (err) {
+      setError('Error sending message. Please try again.');
+      console.error('Form submission error:', err);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -150,12 +173,16 @@ export default function Contact() {
               ></textarea>
             </div>
 
-            <button type="submit" className="submit-btn">
-              Send Message
+            <button type="submit" className="submit-btn" disabled={isLoading}>
+              {isLoading ? 'Sending...' : 'Send Message'}
             </button>
 
             {submitted && (
               <p className="success-message">✓ Thank you! I'll get back to you soon.</p>
+            )}
+
+            {error && (
+              <p className="error-message">{error}</p>
             )}
           </form>
         </div>
