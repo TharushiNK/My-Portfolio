@@ -12,7 +12,7 @@ export default function Projects() {
       description: 'Innovative women\'s safety mobile app with real-time location tracking and emergency alerts.',
       technologies: ['Java', 'Android Studio', 'Firebase', 'Google Maps API', 'SQLite'],
       github: 'https://github.com/TharushiNK/SafeZoneApp',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '📱'
     },
     {
@@ -22,7 +22,7 @@ export default function Projects() {
       description: 'Mobile app for managing tuition schedules with QR code generation and attendance tracking.',
       technologies: ['Java', 'Android Studio', 'SQLite', 'MPAndroidChart', 'Zxing'],
       github: 'https://github.com/TharushiNK/Academix-Tuition-Class-Management-System',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '📚'
     },
     {
@@ -32,7 +32,7 @@ export default function Projects() {
       description: 'Java mobile app for route optimization using Dijkstra\'s algorithm with real-time visualization.',
       technologies: ['Java', 'Android', 'Dijkstra\'s Algorithm', 'Priority Queues'],
       github: 'https://github.com/itsvinz23/Route-Optimization-and-Passenger-Boarding-Tool',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🗺️'
     },
     {
@@ -42,7 +42,7 @@ export default function Projects() {
       description: 'Backend services for car rental platform with microservice architecture and RESTful APIs.',
       technologies: ['Spring Boot', 'REST APIs', 'MySQL', 'Microservices'],
       github: 'https://github.com/TharushiNK/Full-stack-microservices-project-with-Spring-Boot-React-and-REST-APIs',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🚗'
     },
     {
@@ -52,7 +52,7 @@ export default function Projects() {
       description: 'Full-stack food ordering application with microservice architecture and multiple databases.',
       technologies: ['Spring Boot', 'REST APIs', 'Oracle DB', 'MongoDB', 'Microservices'],
       github: 'https://github.com/TharushiNK/CityBites-Microservice-App',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🍕'
     },
     {
@@ -62,7 +62,7 @@ export default function Projects() {
       description: 'PHP & MySQL web application for hostel operations with CRUD functionality and authentication.',
       technologies: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
       github: 'https://github.com/kosaladathapththu/Hostel-Management-System',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🏠'
     },
     {
@@ -72,7 +72,7 @@ export default function Projects() {
       description: 'Web application for managing tourist agents with backend logic and database integration.',
       technologies: ['Express.js', 'MySQL', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/TharushiNK/TravelPilot',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '✈️'
     },
     {
@@ -82,7 +82,7 @@ export default function Projects() {
       description: 'Java Swing desktop application with OOP principles for managing student data.',
       technologies: ['Java', 'Swing', 'SQL', 'OOP'],
       github: 'https://github.com/TharushiNK/Swing-Enterprise-Application-with-CRUD-Operations',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '👨‍🎓'
     },
     {
@@ -91,7 +91,7 @@ export default function Projects() {
       category: 'iot',
       description: 'IoT-enabled shopping cart with product detection, weighing, and automated billing.',
       technologies: ['C++', 'Arduino', 'ESP32', 'IR/RFID', 'Bluetooth'],
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🤖'
     },
     {
@@ -101,7 +101,7 @@ export default function Projects() {
       description: 'Autonomous robot for fire detection and extinguishing with mobile app control.',
       technologies: ['ESP32', 'Arduino', 'Firebase', 'Android', 'Sensors'],
       github: 'https://github.com/itsvinz23/Smart-Fire-Fighting-Robot',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🔥'
     },
     {
@@ -111,7 +111,7 @@ export default function Projects() {
       description: 'Random Forest Classification model for fetal health monitoring using medical data.',
       technologies: ['Python', 'Scikit-learn', 'Pandas', 'Machine Learning'],
       github: 'https://github.com/TharushiNK/Fetal_Health_Checker_ML_Model',
-      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana',
+      linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🧬'
     }
   ];
