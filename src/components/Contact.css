@@ -275,6 +275,8 @@
   .contact-wrapper {
     grid-template-columns: 1fr;
     gap: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .contact-form {
@@ -283,5 +285,93 @@
 
   .social-icons {
     justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 2rem 0;
+  }
+
+  .contact-wrapper {
+    gap: 1.5rem;
+  }
+
+  .contact-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .contact-intro {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-details {
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .detail-item {
+    flex-direction: row;
+    gap: 0.6rem;
+  }
+
+  .detail-icon {
+    font-size: 1.3rem;
+    flex-shrink: 0;
+  }
+
+  .detail-label {
+    font-size: 0.75rem;
+  }
+
+  .detail-item a {
+    font-size: 0.9rem;
+  }
+
+  .social-icons {
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .social-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+  }
+
+  .social-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .contact-form {
+    padding: 1.2rem;
+    border-radius: 12px;
+  }
+
+  .form-group {
+    margin-bottom: 1rem;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 10px 12px;
+    font-size: 16px;
+  }
+
+  .form-group textarea {
+    min-height: 100px;
+  }
+
+  .submit-btn {
+    padding: 12px;
+    font-size: 0.95rem;
   }
 }
