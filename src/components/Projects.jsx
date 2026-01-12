@@ -31,7 +31,7 @@ export default function Projects() {
       category: 'mobile',
       description: 'Java mobile app for route optimization using Dijkstra\'s algorithm with real-time visualization.',
       technologies: ['Java', 'Android', 'Dijkstra\'s Algorithm', 'Priority Queues'],
-      github: 'https://github.com/itsvinz23/Route-Optimization-and-Passenger-Boarding-Tool',
+      github: 'hhttps://github.com/TharushiNK/Route-Optimization-and-Passenger-Boarding-Tool',
       linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🗺️'
     },
@@ -61,7 +61,7 @@ export default function Projects() {
       category: 'web',
       description: 'PHP & MySQL web application for hostel operations with CRUD functionality and authentication.',
       technologies: ['PHP', 'MySQL', 'HTML/CSS', 'JavaScript'],
-      github: 'https://github.com/kosaladathapththu/Hostel-Management-System',
+      github: 'https://github.com/TharushiNK/Hostel-Management-System',
       linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🏠'
     },
@@ -100,7 +100,7 @@ export default function Projects() {
       category: 'iot',
       description: 'Autonomous robot for fire detection and extinguishing with mobile app control.',
       technologies: ['ESP32', 'Arduino', 'Firebase', 'Android', 'Sensors'],
-      github: 'https://github.com/itsvinz23/Smart-Fire-Fighting-Robot',
+      github: 'https://github.com/TharushiNK/Smart-Fire-Fighting-Robot',
       linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🔥'
     },
