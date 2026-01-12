@@ -1,10 +1,11 @@
 import './Hero.css';
 import heroImage from '../assets/tharu.jpeg';
+import CVFile from '../assets/cv/tharushi_nikethana.pdf';
 
 export default function Hero() {
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/assets/cv/Tharushi_Nikethana.pdf';
+    link.href = CVFile;
     link.download = 'Tharushi_Nikethana.pdf';
     link.click();
   };
