@@ -4,7 +4,7 @@ import heroImage from '../assets/tharu.jpeg';
 export default function Hero() {
   const downloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/assets/cv/tharushi_nikethana.pdf';
+    link.href = '/assets/cv/Tharushi_Nikethana.pdf';
     link.download = 'Tharushi_Nikethana.pdf';
     link.click();
   };
