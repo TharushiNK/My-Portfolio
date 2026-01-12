@@ -31,7 +31,7 @@ export default function Projects() {
       category: 'mobile',
       description: 'Java mobile app for route optimization using Dijkstra\'s algorithm with real-time visualization.',
       technologies: ['Java', 'Android', 'Dijkstra\'s Algorithm', 'Priority Queues'],
-      github: 'hhttps://github.com/TharushiNK/Route-Optimization-and-Passenger-Boarding-Tool',
+      github: 'https://github.com/TharushiNK/Route-Optimization-and-Passenger-Boarding-Tool',
       linkedin: 'https://www.linkedin.com/in/tharushi-nikethana-a45b8325b/details/projects/',
       image: '🗺️'
     },
